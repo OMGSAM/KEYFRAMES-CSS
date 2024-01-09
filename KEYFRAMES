@@ -1,0 +1,71 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    div {
+    text-align : center ;
+    width : 200px;
+    height : 200px ;
+    background : gray ;
+    animation-duration : 7s ;
+    animation-name : square ;
+     
+  }
+     @keyframes square {
+    0% {
+    
+    background : blue ;
+     
+    translate : 0 0 ;
+    rotate : 0 ;
+    
+  }
+      25% {
+    
+    background : green ;
+     
+    translate : 400 500px ;
+    rotate :180deg ;
+    
+  }
+      50% {
+    
+    background : yellow ;
+     
+    translate : 400px 500px ;
+    rotate : 180deg ;
+    
+  }
+      75% {
+    
+    background : blue ;
+     
+    translate : 400px  0 ;
+    rotate : 270deg ;
+    
+  }
+    }
+    
+    
+  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+  <div>
+  <h1>
+    Write, edit and run HTML
+  </h1>
+  </div>
+   
+  <script src="script.js"></script>
+</body>
+
+</html>
